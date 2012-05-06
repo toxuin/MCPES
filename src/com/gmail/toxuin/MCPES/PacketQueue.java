@@ -44,8 +44,7 @@ public class PacketQueue {
 	public static Packet peek() throws Exception {
 	// looks at packet #num, but does not remove it from the queue
 	//does other shit if necessary
-		Packet outgoingPacket = queue.peek();
-		return outgoingPacket;
+		return queue.peek();
 	}
 	
 	public static void pushToAll() {
